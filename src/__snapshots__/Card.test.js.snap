@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component renders a card by default 1`] = `
+<Fragment>
+  <div
+    className="flash-card front"
+    onClick={[Function]}
+  />
+  <Button
+    style="green"
+    text="Nailed It"
+  />
+  <Button
+    style="red"
+    text="Hell No"
+  />
+</Fragment>
+`;
+
+exports[`Card component renders a card with props 1`] = `
+<Fragment>
+  <div
+    className="flash-card front"
+    onClick={[Function]}
+  >
+    sample text
+  </div>
+  <Button
+    style="green"
+    text="Nailed It"
+  />
+  <Button
+    style="red"
+    text="Hell No"
+  />
+</Fragment>
+`;

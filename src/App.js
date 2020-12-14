@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./styles.css";
 import Card from "./Card";
-import Counter from "../Counter";
+import Counter from "./Counter";
 import flashCardData from "./flashCardData.js";
 
 const flashCards = flashCardData;
